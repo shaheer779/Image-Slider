@@ -8,7 +8,6 @@ const nextBtn = document.querySelector("#nextBtn");
 let counter = 1;
 //size
 const size = images[0].clientWidth;
-
 carouselSlide.style.transform = 'translateX('+ (-size * counter) + 'px)';
 
 //button listeners
