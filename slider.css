@@ -1,0 +1,46 @@
+/*Slider styling*/
+
+ styling the slider 
+#slider {
+	width: 100%;
+	height: 800px;
+	padding: 0;
+	position: relative;
+	overflow: hidden;
+}
+img {
+	width: 100%;
+	height: 100%;
+}
+.carousel-slide {
+	display: flex;
+	width: 100%;
+	height: 100%;
+}
+
+ /*styling buttons*/
+#prevBtn {
+	position: absolute;
+	top: 50%;
+	z-index: 10;
+	left: 2%;
+	font-size: 50px;
+	color: white;
+	opacity: 1;
+	cursor: pointer;
+	transition: all 0.3s;
+}
+#prevBtn:hover, #nextBtn:hover {
+	opacity: 0.8;
+}
+#nextBtn {
+	position: absolute;
+	top: 50%;
+	z-index: 10;
+	left: 96%;
+	font-size: 50px;
+	color: white;
+	opacity: 1;
+	cursor: pointer;
+	transition: all 0.3s;
+}
