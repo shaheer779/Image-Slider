@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/shaheer779/Image-Slider/issues"
   },
-  "homepage": "https://github.com/shaheer779/Image-Slider#readme"
+  "homepage": "https://github.com/shaheer779/Image-Slider#readme",
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
 }

@@ -1,3 +1,6 @@
+let _ = require('lodash');        //loading lodash in this file
+let array = [1,2,3,4,5,6,7,8];
+console.log("answer: ", _.without(array, 5)); //using lodash method without on array
 //Making a slider
 const carouselSlide = document.querySelector(".carousel-slide");
 const images = document.querySelectorAll(".carousel-slide img");
