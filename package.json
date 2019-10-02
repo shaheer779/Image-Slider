@@ -1,0 +1,19 @@
+{
+  "name": "image-slider",
+  "version": "1.0.0",
+  "description": "image slider for websites",
+  "main": "slider.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaheer779/Image-Slider.git"
+  },
+  "author": "shaheer khan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shaheer779/Image-Slider/issues"
+  },
+  "homepage": "https://github.com/shaheer779/Image-Slider#readme"
+}
